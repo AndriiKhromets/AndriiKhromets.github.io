@@ -95,3 +95,7 @@ a:hover{
 .btn:hover{
     background-color: #7D7D7D;
 }
+
+.second-card {
+    margin-bottom: 90px;
+}
