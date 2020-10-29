@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .logo {
     position: absolute;
     width: 98px;
     height: 33px;
     left: 360px;
     top: 17px;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -44,7 +44,6 @@ line-height: 35px;
 .services {
 text-align: center;
 justify-content:center;
-font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;

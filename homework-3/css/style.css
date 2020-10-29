@@ -1,34 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container {
-    width: 60.83vw;
-    height: 200px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .logo {
-    color: #95E1D3;
+    position: absolute;
+    width: 98px;
+    height: 33px;
+    left: 360px;
+    top: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #95E1D3;    
 }
 
-li {
-    list-style: none;
-    display: inline;
+.list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 53px; 
+ }
+
+ a:hover {
+    color: #F38181;
+ }
+
+.list li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Title {
+text-align: center;
+margin-top: 70px;  
+font-family: 'Kaushan Script', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+}
+
+.services {
+text-align: center;
+justify-content:center;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+font-variant: small-caps;
+color: #333333;
+   
 }
 
 .line {
@@ -38,45 +60,36 @@ li {
     background-color: #F38181;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
-.info-block {
+.cards {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 400px;
+    margin-left: 350px;
 }
 
-.info-block_title {
-    margin-bottom: 20px;
-    text-align: center;
-    margin-top: 70px;
-    font-family: 'Kaushan Script', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
+.card {
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    
 }
 
-
-.servis {
-    text-align: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-    font-variant: small-caps;
-    color: #333333;
-}
 
 a {
-    text-decoration: none;
+    color: #95E1D3;
 }
 
-a:hover {
-    color: #03A9F4;
+.copyright {
+text-align: left;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #333333;
+}
+
+.search {
+    text-align: right;
 }
