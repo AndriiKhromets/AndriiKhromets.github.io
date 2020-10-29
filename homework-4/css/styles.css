@@ -77,14 +77,14 @@ color: #333333;
 }
 
 .title b {
-text-align: center;
-margin-top: 70px;
-font-family: 'Kaushan Script', cursive;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 35px;
-color: #333333;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
 }
 
 a {
@@ -92,14 +92,24 @@ a {
 }
 
 .copyright {
-text-align: left;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-color: #333333;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
 }
 
-.search {
+.serch {
     text-align: right;
+}
+
+.text_op {
+    text-align: center;
+    justify-content:center;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #B6B6B6;
+    ; 
 }
