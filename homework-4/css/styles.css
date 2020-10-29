@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.logo {
+    position: absolute;
+    width: 98px;
+    height: 33px;
+    left: 360px;
+    top: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #95E1D3;    
+}
+
+.list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 53px; 
+ }
+
+ a:hover {
+    color: #F38181;
+ }
+
+.list li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Title {
+text-align: center;
+margin-top: 70px;  
+font-family: 'Kaushan Script', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+}
+
+.services {
+text-align: center;
+justify-content:center;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+font-variant: small-caps;
+color: #333333;
+   
+}
+
+.line {
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: #F38181;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 340px;
+    height: 400px;
+    margin-left: 350px;
+}
+
+.card {
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+.title b {
+text-align: center;
+margin-top: 70px;
+font-family: 'Kaushan Script', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+color: #333333;
+}
+
+a {
+    color: #95E1D3;
+}
+
+.copyright {
+text-align: left;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #333333;
+}
+
+.search {
+    text-align: right;
+}
