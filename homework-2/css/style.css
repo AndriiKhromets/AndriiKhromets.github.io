@@ -8,7 +8,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    color: #7d7d7d;
     margin-top: 71px;
     margin-bottom: 88px;
     text-transform: uppercase;
@@ -22,6 +21,7 @@
 
 a {
     text-decoration: none;
+    color: #7D7D7D;
 }
 
 .cards {
@@ -93,7 +93,7 @@ a:hover{
 }
 
 .btn:hover{
-    background-color: #7D7D7D;
+    background-color: #ffffff;
 }
 
 .second-card {
