@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .logo {
     position: absolute;
@@ -146,4 +152,162 @@ main {
 .benefit {
     display: flex;
     width: 28.33%;
+}
+
+.job {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contaner {
+    width: 65.625vw;
+}
+
+.team {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    position: relative;
+    width: 30.95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradient {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    min-height: 380px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    ;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-item {
+    width: 57px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCE38A;
+    margin-right: 1px;
+}
+
+.social-item:hover {
+    background-color: #95E1D3;
+}
+
+.man {
+    width: 100%;
+    min-height: 380px;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-man .man {
+    background-image: url(/img/M1.png);
+}
+
+.second-man .man {
+    background-image: url(/img/M2.png);
+}
+
+.third-man .man {
+    background-image: url(/img/M3.png);
+}
+
+.first-man .man:hover .gradient {
+    display: flex;
+}
+
+.second-man .man:hover .gradient {
+    display: flex;
+}
+
+.third-man .man:hover .gradient {
+    display: flex;
+}
+
+.team::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #626262;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-lines {
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    color: #000000;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-form input {
+    height: 39px;
+    padding-left: 15px;
+    border: 1px solid #B6B6B6;
+}
+
+.footer-form input::placeholder {
+    color: #B6B6B6;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-text_red {
+    color: 243, 129, 129, 1;
+}
+
+.footer-form button {
+    background: #95E1D3;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+.btn {
+    margin-left: 510px;
+    padding: 20px 48px;
+    font-style: normal;
+    font-weight: 150px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #B4AD9E;
+    background-color: #95E1D3;
+    border: 1px solid #626262;
+    margin-bottom: 70px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
 }
