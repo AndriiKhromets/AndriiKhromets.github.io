@@ -296,17 +296,19 @@ footer {
 }
 
 .btn {
-    margin-left: 510px;
-    padding: 20px 48px;
-    font-style: normal;
-    font-weight: 150px;
-    font-size: 14px;
-    line-height: 40px;
-    color: #B4AD9E;
-    background-color: #95E1D3;
-    border: 1px solid #626262;
-    margin-bottom: 70px;
+        margin-left: 510px;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 20px 48px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #B4AD9E;
+        background-color: #ffffff;
+        border: 1px solid #626262;
+        margin-bottom: 70px;
 }
+
 
 .btn:hover {
     background-color: #ffffff;
