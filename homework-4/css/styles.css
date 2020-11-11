@@ -14,13 +14,11 @@
     height: 33px;
     left: 360px;
     top: 17px;
-
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
-
     color: #95E1D3;
 }
 
@@ -296,19 +294,18 @@ footer {
 }
 
 .btn {
-        margin-left: 510px;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 20px 48px;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 16px;
-        color: #B4AD9E;
-        background-color: #ffffff;
-        border: 1px solid #626262;
-        margin-bottom: 70px;
+    margin-left: 510px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 48px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    background-color: #ffffff;
+    border: 1px solid #626262;
+    margin-bottom: 70px;
 }
-
 
 .btn:hover {
     background-color: #ffffff;
