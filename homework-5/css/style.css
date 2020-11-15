@@ -1,28 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 98px;
+    height: 33px;
+    left: 360px;
+    top: 17px;
+    font-family: 'Bilbo Swash Caps', cursive;
     font-style: normal;
     font-weight: bold;
-    display: flex;
-    align-items: center;
     font-size: 30px;
     line-height: 37px;
-    color: #95E1D3;
+    color: #FED136;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-}
+
 
 a::after {
     display: block;
@@ -41,19 +40,19 @@ a:hover {
 
 li {
     display: inline-block;
+    margin-right: 60px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
 
 .Title {
-    font-family: 'Kaushan Script', cursive;
+    margin-top: 81px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
-    margin-top: 130px;
-    margin-bottom: 20px;
 }
 
 .services {
@@ -68,7 +67,7 @@ li {
 
 a {
     position: relative;
-    color: #95E1D3;
+    color: #FED136;
     cursor: pointer;
     line-height: 1;
     text-decoration: none;
@@ -91,30 +90,32 @@ a:focus:after {
 .text {
     font-style: normal;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 15px;
     line-height: 22px;
-    color: #B6B6B6;
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: #777777;
 }
 
 .img-block {
     display: flex;
-    height: 100%;
-    width: 11.17%;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-right: 23.61px;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #FED136;
 }
 
 .container {
     width: 60.83vw;
+}
+
+.conainer {
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    top: 100%;
+    background: #222222;
 }
 
 .line {
@@ -123,20 +124,6 @@ nav {
     width: 60px;
     background-color: #F38181;
     margin-bottom: 40px;
-}
-
-li::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 4px;
-transition: all 0.2s;
-    transform: scaleX(0);
-    background-color: #F38181;
-}
-
-li:hover::after {
-    transform: scaleX(1);
 }
 
 main {
@@ -154,10 +141,22 @@ main {
     margin-bottom: 20px;
 }
 
-.list {         
+.list {
+    margin-top: 32px;
     display: flex;
     justify-content: space-between;
-    align-items: center;      
+    width: 470px;
+}
+
+.list a::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F38181;
+    content: "";
+    transition: 0.3s ease-out;
 }
 
 .benefits {
@@ -173,17 +172,19 @@ main {
     margin-bottom: 100px;
 }
 
-.benefit-start {
-    display: flex;
-    width: 28.33%;
-    margin-bottom: 100px;
-    justify-content: start;
+.Contact {
+    width: 455px;
+    height: 50px;
+    left: 1px;
+    top: 2px;
 }
 
-.benefit-end {
+.sub {
+    width: 496px;
+    height: 115px;
+    left: 580px;
+    top: 580px;
     display: flex;
-    width: 28.33%;
-    margin-bottom: 100px;
-    justify-content: end;
+    justify-content: center;
+    margin-bottom: 29px;
 }
-
