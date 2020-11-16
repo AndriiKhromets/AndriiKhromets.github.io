@@ -130,14 +130,11 @@ li::after {
     display: inline-block;
     width: 100%;
     height: 4px;
-transition: all 0.2s;
+    transition: all 0.2s;
     transform: scaleX(0);
     background-color: #F38181;
 }
 
-li:hover::after {
-    transform: scaleX(1);
-}
 
 main {
     display: flex;
