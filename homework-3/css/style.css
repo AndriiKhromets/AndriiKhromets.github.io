@@ -42,7 +42,11 @@ a:hover {
 li {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
     font-style: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
 .Title {
@@ -154,7 +158,8 @@ main {
 .list {         
     display: flex;
     justify-content: space-between;
-    align-items: center;      
+    align-items: center;
+    width: 39.16%;      
 }
 
 .benefits {
