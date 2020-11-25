@@ -8,7 +8,6 @@
 }
 
 .logo {
-    position: absolute;
     width: 98px;
     height: 33px;
     left: 360px;
@@ -16,12 +15,17 @@
     font-family: 'Bilbo Swash Caps', cursive;
     font-style: normal;
     font-weight: bold;
+    display: flex;
+    align-items: center;
     font-size: 30px;
     line-height: 37px;
     color: #FED136;
 }
 
-
+header {
+    display: flex;
+    justify-content: center;
+}
 
 a::after {
     display: block;
@@ -40,9 +44,12 @@ a:hover {
 
 li {
     display: inline-block;
-    margin-right: 60px;
     font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
     font-style: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
 .Title {
@@ -53,6 +60,8 @@ li {
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 .services {
@@ -90,13 +99,29 @@ a:focus:after {
 .text {
     font-style: normal;
     font-weight: normal;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 22px;
     color: #777777;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .img-block {
+    display: flex;
+    height: 100%;
+    width: 11.17%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 23.61px;
+}
+
+.img-riet {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +132,7 @@ a:focus:after {
 }
 
 .container {
-    width: 60.83vw;
+    width: 66.64vw;
 }
 
 .conainer {
@@ -118,13 +143,17 @@ a:focus:after {
     background: #222222;
 }
 
-.line {
+
+li::after {
+    content: '';
     display: inline-block;
+    width: 100%;
     height: 4px;
-    width: 60px;
+    transition: all 0.2s;
+    transform: scaleX(0);
     background-color: #F38181;
-    margin-bottom: 40px;
 }
+
 
 main {
     display: flex;
@@ -142,21 +171,10 @@ main {
 }
 
 .list {
-    margin-top: 32px;
     display: flex;
     justify-content: space-between;
-    width: 470px;
-}
-
-.list a::after {
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #F38181;
-    content: "";
-    transition: 0.3s ease-out;
+    align-items: center;
+    width: 51.44%;
 }
 
 .benefits {
@@ -172,19 +190,57 @@ main {
     margin-bottom: 100px;
 }
 
-.Contact {
-    width: 455px;
-    height: 50px;
-    left: 1px;
-    top: 2px;
+.Contact-us {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 92px;
 }
 
 .sub {
-    width: 496px;
-    height: 115px;
-    left: 580px;
-    top: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.black {
+    width: 100%;
+    height: 679px;
+    background-color: #222222;
     display: flex;
     justify-content: center;
-    margin-bottom: 29px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    background: #FED136;
+    width: 242px;
+    height: 68px;
+    color: #FFFFFF;
+    margin-top: 29px;
+    border: none;
+}
+
+.cont {
+    width: 942px;
+}
+
+.tell {
+    margin-top: 114px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }

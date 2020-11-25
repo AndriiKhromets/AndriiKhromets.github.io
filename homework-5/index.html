@@ -10,26 +10,19 @@
 
 <body>
     <header>
-        <h2 class="logo">Golden</h2>
+        <div class="container">
+
         <nav>
+            <h2 class="logo">Golden</h2>
             <ul class="list">
-                <a href="#">
-                    <li class="menu-btn">Home</li>
-                </a>
-                <a href="#">
-                    <li class="menu-btn">Services</li>
-                </a>
-                <a href="#">
-                    <li class="menu-btn">Portfolio</li>
-                </a>
-                <a href="#">
-                    <li class="menu-btn">About</li>
-                </a>
-                <a href="#">
-                    <li class="menu-btn">Contact</li>
-                </a>
+                <li class="menu-btn"><a href="#">Home</a></li>
+                <li class="menu-btn"><a href="#">Services</a></li>
+                <li class="menu-btn"><a href="#">Portfolio</a></li>
+                <li class="menu-btn"><a href="#">About</a></li>
+                <li class="menu-btn"><a href="#">Contact</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <div class="container">
@@ -40,7 +33,9 @@
 
                 <div class="benefit">
                     <div class="img-block">
-                        <img src="img/shape.svg" alt="Кошик">
+                        <div class="img-riet">
+                            <img src="img/shape.svg" alt="Кошик">
+                        </div>
                     </div>
                     <div class="textblock">
                         <h4 class="title">E-Commerce</h4>
@@ -53,7 +48,9 @@
 
                 <div class="benefit">
                     <div class="img-block">
-                        <img src="img/combinet.svg" alt="Галочка">
+                        <div class="img-riet">
+                            <img src="img/combinet.svg" alt="Галочка">
+                        </div>
                     </div>
                     <div class="textblock">
                         <h4 class="title">Responsive Web</h4>
@@ -66,7 +63,10 @@
 
                 <div class="benefit">
                     <div class="img-block">
-                        <img src="img/sefe.svg" alt="Скважина для ключа">
+                        <div class="img-riet">
+                            <img src="img/sefe.svg" alt="Скважина для ключа">
+                        </div>
+
                     </div>
                     <div class="textblock">
                         <h4 class="title">Web Security</h4>
@@ -77,25 +77,28 @@
                     </div>
                 </div>
             </section>
-            <div class="conainer">
-                <div class="Contact">
-                    <form action="#" method="get">
-                        <input type="text" name="UserName" required placeholder="your Name *">
-                        <input type="email" required placeholder="your e-mail *">
-                        <input type="text" name="anyText" required placeholder="subject">
-                    </form>
-                </div>
 
-                <div class="Message">
-                    <textarea name="comments" rows="5" cols="45" required placeholder="Your message *">
-            </textarea>
-           <div class="sub">
-            <input type="submit">
-            </div>
+    </main>
+
+    <footer>
+        <div class="black">
+            <div class="cont">
+                <h1 class="Contact-us">CONTACT US</h1>
+                <div class="tell">
+                <div class="sub">
+                    <input type="text" class="input" placeholder="YOUR NAME *">
+                    <input type="text" class="input" placeholder="YOUR E-MAIL *">
+                    <input type="text" class="input" placeholder="SUBJECT *">
+                    <textarea name="massage" rows="5" cols="45" placeholder="YOUR MASSAGE *"></textarea>
                 </div>
+                </div>
+              <div class="btns">
+                <button class="btn">SEND MESSAGE</button>
+              </div>
+
             </div>
         </div>
-    </main>
+    </footer>
 </body>
 
 </html>
