@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .logo {
@@ -114,15 +115,6 @@ nav {
 
 .img-block {
     display: flex;
-    height: 100%;
-    width: 11.17%;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-right: 23.61px;
-}
-
-.img-riet {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 70px;
@@ -152,6 +144,10 @@ li::after {
     transition: all 0.2s;
     transform: scaleX(0);
     background-color: #F38181;
+}
+
+.textblock {
+    text-align: center;
 }
 
 
@@ -186,6 +182,8 @@ main {
 
 .benefit {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 28.33%;
     margin-bottom: 100px;
 }
@@ -202,9 +200,14 @@ main {
 }
 
 .sub {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
     justify-content: space-between;
+    flex-direction: column;
+    height: 5vw;
+    width: 455px;
+    height: 50px;
+    left: 1px;
+    top: 2px;
 }
 
 .black {
