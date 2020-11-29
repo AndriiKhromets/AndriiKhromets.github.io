@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
 }
 
 .logo {
-    position: absolute;
-    width: 98px;
-    height: 33px;
-    left: 360px;
-    top: 17px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
+    display: flex;
+    align-items: center;
     font-size: 30px;
     line-height: 37px;
     color: #95E1D3;
 }
 
-
+header {
+    display: flex;
+    justify-content: center;
+}
 
 a::after {
     display: block;
@@ -41,9 +41,12 @@ a:hover {
 
 li {
     display: inline-block;
-    margin-right: 60px;
     font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
     font-style: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
 .Title {
@@ -53,6 +56,8 @@ li {
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 .services {
@@ -62,7 +67,7 @@ li {
     font-size: 30px;
     line-height: 37px;
     color: #333333;
-
+    margin-top: 20px;
 }
 
 a {
@@ -90,9 +95,17 @@ a:focus:after {
 .text {
     font-style: normal;
     font-weight: normal;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 22px;
     color: #B6B6B6;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .img-block {
@@ -101,11 +114,8 @@ a:focus:after {
     width: 11.17%;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 20px;
-    padding-right: 30px;
+    padding-right: 23.61px;
 }
-
-
 
 .container {
     width: 60.83vw;
@@ -118,6 +128,17 @@ a:focus:after {
     background-color: #F38181;
     margin-bottom: 40px;
 }
+
+li::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    transition: all 0.2s;
+    transform: scaleX(0);
+    background-color: #F38181;
+}
+
 
 main {
     display: flex;
@@ -134,10 +155,11 @@ main {
     margin-bottom: 20px;
 }
 
-.list {
-    margin-top: 55px;
-    text-align-last: right;
-    margin-right: 180px;
+.list {         
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 39.16%;      
 }
 
 .benefits {
@@ -150,6 +172,21 @@ main {
 .benefit {
     display: flex;
     width: 28.33%;
+    margin-bottom: 100px;
+}
+
+.benefit-start {
+    display: flex;
+    width: 28.33%;
+    margin-bottom: 100px;
+    justify-content: start;
+}
+
+.benefit-end {
+    display: flex;
+    width: 28.33%;
+    margin-bottom: 100px;
+    justify-content: end;
 }
 
 .job {
