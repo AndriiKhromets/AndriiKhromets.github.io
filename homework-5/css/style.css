@@ -194,7 +194,7 @@ main {
     background-color: #222222;
     display: flex;
     justify-content: center;
-    padding: 115px;
+    padding-bottom: 115px;
 }
 
 .btns {
