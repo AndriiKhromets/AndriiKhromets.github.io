@@ -68,9 +68,10 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 17px;
     color: #333333;
+    margin-bottom: 20px;
 }
 
 a:hover:after,
@@ -129,6 +130,7 @@ li::after {
 
 .textblock {
     text-align: center;
+    margin-top: 20px;
 }
 
 
