@@ -173,15 +173,20 @@ a {
 }
 
 .team-btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 14.0026px;
     line-height: 17px;
-    background: #ffffff;
-    border: 2px solid #ff4e50;
-    background-repeat: 30px;
-    color: #ff4e50;
+    color: #FF4E50;
+    text-align: center;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    box-sizing: border-box;
+    padding: 13px 17px;
+    border-radius: 50px;
+    width: 195px;
+    margin-bottom: 57px;
 }
 
 .team-btn:hover {

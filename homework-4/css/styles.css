@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
@@ -155,11 +155,11 @@ main {
     margin-bottom: 20px;
 }
 
-.list {         
+.list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 39.16%;      
+    width: 39.16%;
 }
 
 .benefits {
@@ -189,69 +189,27 @@ main {
     justify-content: end;
 }
 
-.job {
-    font-family: 'Roboto', sans-serif;
+.text-comp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #B6B6B6;
+    text-align: center;
+    margin-bottom: 27px;
 }
 
-.contaner {
-    width: 65.625vw;
+
+.line-smole {
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+    background-color: #F38181;
 }
 
-.team {
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.person {
-    position: relative;
-    width: 30.95%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.gradient {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    width: 100%;
-    min-height: 380px;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    background-color: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
-    ;
-}
-
-.social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-item {
-    width: 57px;
-    height: 57px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FCE38A;
-    margin-right: 1px;
-}
-
-.social-item:hover {
-    background-color: #95E1D3;
-}
-
-.man {
-    width: 100%;
-    min-height: 380px;
-    background-size: cover;
-    background-position: center;
-}
-
-.first-man .man {
+.one-man .man {
     background-image: url(/img/M1.png);
 }
 
@@ -263,23 +221,150 @@ main {
     background-image: url(/img/M3.png);
 }
 
-.first-man .man:hover .gradient {
-    display: flex;
+.person {
+    width: 30.95%;
 }
 
-.second-man .man:hover .gradient {
-    display: flex;
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
 }
 
-.third-man .man:hover .gradient {
-    display: flex;
+.job {
+    font-family: 'Roboto' , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #B6B6B6;
+    text-align: center;
+    margin-top: 11px;
 }
 
-.team::after {
-    content: "";
-    height: 1px;
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    width: 30.95%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradient {
     width: 100%;
-    background-color: #626262;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    min-height: 470px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+}
+
+.people-item {
+    width: 57px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+    background: #FCE38A;
+}
+
+.people-item:hover {
+    background: #95E1D3;
+}
+
+.people {
+    display: flex;
+}
+
+.copy {
+    margin-top: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.red-text {
+    color: #F38181;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team {
+    margin-bottom: 80px;
+}
+
+.margin {
+    margin-bottom: 22px;
+}
+
+.footer-email input {
+    border: 1px solid #B6B6B6;
+    height: 38px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B6B6B6;
+}
+
+.footer-email button {
+    width: 150px;
+    height: 40px;
+    background: #95E1D3;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.one-man:hover .gradient {
+    display: flex;
+}
+
+.second-man:hover .gradient {
+    display: flex;
+}
+
+.third-man:hover .gradient {
+    display: flex;
+}
+
+.footer-line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #B6B6B6;
 }
 
 footer {
@@ -287,63 +372,18 @@ footer {
     justify-content: center;
 }
 
-.footer-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-lines {
-    display: inline-block;
-    width: 100px;
-    height: 1px;
-    color: #000000;
-}
-
-.footer-container {
-    display: flex;
-}
-
-.footer-form input {
-    height: 39px;
-    padding-left: 15px;
-    border: 1px solid #B6B6B6;
-}
-
-.footer-form input::placeholder {
-    color: #B6B6B6;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.footer-text_red {
-    color: 243, 129, 129, 1;
-}
-
-.footer-form button {
-    background: #95E1D3;
-    width: 150px;
-    height: 40px;
-    border: none;
-}
-
-.btn {
-    margin-left: 510px;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 20px 48px;
+.Compani {
+    font-family: 'Kaushan Script', cursive;
     font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    color: #B4AD9E;
-    background-color: #ffffff;
-    border: 1px solid #626262;
-    margin-bottom: 70px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
 }
 
-.btn:hover {
-    background-color: #ffffff;
+.man {
+    width: 100%;
+    min-height: 470px;
+    background-size: cover;
+    background-position: center;
 }
