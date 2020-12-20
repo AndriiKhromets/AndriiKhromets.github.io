@@ -210,15 +210,15 @@ main {
 }
 
 .one-man .man {
-    background-image: url(/img/M1.png);
+    background-image: url(../img/M1.png);
 }
 
 .second-man .man {
-    background-image: url(/img/M2.png);
+    background-image: url(../img/M2.png);
 }
 
 .third-man .man {
-    background-image: url(/img/M3.png);
+    background-image: url(../img/M3.png);
 }
 
 .person {
