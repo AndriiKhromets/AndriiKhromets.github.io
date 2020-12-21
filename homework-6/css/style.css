@@ -124,6 +124,7 @@ a {
 }
 
 .team h2 {
+    margin-top: 61px;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -207,9 +208,14 @@ a {
         margin-bottom: 135px;
     }
 
+    .logo {
+        margin-left: 50px;
+    }
+
     .log-in {
         margin-top: 0;
         margin-bottom: 0;
+        margin-right: 50px;
     }
 
     .about-holiday {
@@ -223,7 +229,7 @@ a {
     }
 
     .about-holiday h3 {
-        width: 100px;
+        width: 100%;
         margin-bottom: 33px;
         font-size: 24px;
     }
@@ -233,11 +239,12 @@ a {
         max-width: 228px;
     }
 
-    .employees {
+    .team .employees {
         justify-content: space-between;
     }
 
-    .employee{
+    .team .employee {
+
         width: 41.27%;
         padding-bottom: 50px;
     }
@@ -269,11 +276,11 @@ a {
         max-width: 228px;
     }
 
-    .employees {
+    .team .employees {
         margin-bottom: 37px;
     }
 
-    .employee {
+    .team .employee {
         width: 21.22%;
         padding-bottom: 0;
     }
