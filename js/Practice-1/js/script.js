@@ -1,11 +1,14 @@
+// Завдання 1
 let str = "Привіт";
 let num = 123;
 let flag = true;
 let txt = "true";
 
-console.log(typeof string);
-console.log(typeof number);
-console.log(typeof boolean);
+console.log(typeof (string));
+console.log(typeof (number));
+console.log(typeof (boolean));
+
+// Завдання 2
 
 let house = "Величезний будинок";
 let name = "Ivan";
