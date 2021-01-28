@@ -36,15 +36,18 @@
 //     else if  (age<18){
 //         console.log("Максим дитина");
 //     }
+// else {
+//     age = "Максим довгожитель";
+// }
 
 // Завдання 5
 
-// const one = (getRandomInt(2));
-// const two = (getRandomInt(2));
+// let randomNumOne = Number.parseInt(Math.random() * 2);
+// let randomNumTwo = Number.parseInt(Math.random() * 2);
 
-// if (one==1 && two == 1) {
-//     console.log("ФАРТ");
-//     } else{
+// if (randomNumOne === randomNumTwo) {
+//     console.log("ФАРТ!");
+// } else {
 //     console.log("Ти програв");
 // }
 
@@ -61,22 +64,20 @@
 
 // Завдання 7
 
-// let num = (getRandomInt(6))
+// let randomNumber = Number.parseInt(Math.random() * 6);
 
-// if (num == 5) {
-//     console.log("число = 5")
-// }
-// else if (num == 4){
-//     console.log("число = 4")
-// }
-// else if (num == 3){
-//     console.log("число = 3")
-// }
-// else if (num == 2){
-//     console.log("число = 2")
-// }
-// else{
-//     console.log("число = 1")
+// if (randomNumber === 1) {
+//     console.log("Число 1");
+// } else if (randomNumber === 2) {
+//     console.log("Число 2");
+// } else if (randomNumber === 3) {
+//     console.log("Число 3");
+// } else if (randomNumber === 4) {
+//     console.log("Число 4");
+// } else if (randomNumber === 5) {
+//     console.log("Число 5");
+// } else {
+//     console.log("Інше число");
 // }
 
 // Завдання 8
@@ -87,3 +88,5 @@
 // if (friendage>12){
 //     alert(MYage.length + friendage.length)
 // }
+
+
