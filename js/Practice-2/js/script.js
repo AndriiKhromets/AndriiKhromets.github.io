@@ -56,6 +56,6 @@ let v = S * heightC;
 
 // Завдання 8
 
-let a = 3;
-let b = 4;
-let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+let n = 3;
+let m = 4;
+let k = Math.sqrt(Math.pow(n, 2) + Math.pow(m, 2));
