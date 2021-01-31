@@ -1,7 +1,7 @@
 // Завдання 1
 
-let name = "Ведіть своє імя";
-let test = prompt("name", '');
+let name = prompt("Введіть своє ім'я");
+console.log(name);
 
 // Завдання 2
 
@@ -12,8 +12,8 @@ alert (ageMe + ageFrends);
 // Завдання 3 
 
 let a = 10;
-let b = 15;
-console.log('a+b =', a+b);
+let b = 5;
+console.log(a * b);
 
 // Завдання 4
 
@@ -49,12 +49,13 @@ let s = height * width;
 
 // Завдання 7
 
-let heightC = 10
-let dC = 4
-let v = heightC * dC
+let heightC = 10;
+let dC = 4;
+let S = Math.PI * (dC * dC / 4);
+let v = S * heightC;
 
 // Завдання 8
 
-let A = 4;
-let B = 3;
-let C = (4**2)+(3**2)
+let a = 3;
+let b = 4;
+let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
