@@ -51,8 +51,8 @@ let s = height * width;
 
 let heightC = 10;
 let dC = 4;
-let S = Math.PI * (dC * dC / 4);
-let v = S * heightC;
+let v =Math.PI *Math.pow(dC/2,2)*heightC;
+console.log(v);
 
 // Завдання 8
 
