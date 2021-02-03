@@ -1,10 +1,9 @@
 let messeng = prompt('Ведіть пароль')
 const ADMIN_PASSWORD = 'asdf';
 if  (messeng===ADMIN_PASSWORD) {
-    console.log('Ласкаво просимо!')
+    alert('Ласкаво просимо!')
 } else if (messeng === null) {
-    console.log('Скасовано користувачем!')
+    alert('Скасовано користувачем!')
 } else {
-    console.log('Доступ заборонений, невірний пароль!')
+    alert('Доступ заборонений, невірний пароль!')
 }
-alert(messeng);
