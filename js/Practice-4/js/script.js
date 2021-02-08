@@ -3,7 +3,7 @@
 // let today = 24;
 
 // if (today === 1) {
-// console.log(cогодні перше число); 
+// console.log('cьгодні перше число'); 
 // }
 // Завдання 2
 
@@ -30,7 +30,7 @@
 // let age=55;
 // if (age>60) {
 //     console.log("Максим пенсіонер");
-//     } else if  (age<60 && age > 18){
+//     } else if  (age<60 && age > 19){
 //     console.log("Максим дорослий");
 // }
 //     else if  (age<18){
@@ -82,11 +82,11 @@
 
 // Завдання 8
 
-// let MYage = "12"
-// let friendage = prompt('Ведіть вік вашого друга:');
+let MYage = "12"
+let friendage = prompt('Ведіть вік вашого друга:');
 
-// if (friendage>12){
-//     alert(MYage.length + friendage.length)
-// }
+if (friendage>12) {
+    alert(friendage + MYage);
+} 
 
 
