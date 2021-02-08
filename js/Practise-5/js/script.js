@@ -1,5 +1,5 @@
 // // Завдання 1
-// let counter = 0;
+// let counter = 1;
 
 // while (counter < 11) {
 //   console.log(counter);
@@ -8,15 +8,15 @@
 // // Завдання 2
 // const number = 10;
 
-// for (let i = 0; i <= number; i += 1) {
-//   if (i % 2 === 1) {
+// for (let i = 1; i <= number; i += 1) {
+// if (i % 2 === 1) {
 //     continue;
-//   }
+// }
 
 //   console.log(i); 
 // }
 // // Завдання 3
-// let num = 0;
+// let num = 20;
 
 // while (num <= 28) {
 //   console.log(num);

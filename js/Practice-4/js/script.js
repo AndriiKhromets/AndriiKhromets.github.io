@@ -82,11 +82,11 @@
 
 // Завдання 8
 
-let MYage = "12"
-let friendage = prompt('Ведіть вік вашого друга:');
+// let friendage = Number.parseInt(prompt("Введіть ім'я Вашого сусід зліва:"));
+// let MYage = 12;
 
-if (friendage>12) {
-    alert(friendage + MYage);
-} 
+// if (friendage > 12) {
+//     console.log(friendage + MYage);
+// } 
 
 
