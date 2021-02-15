@@ -27,13 +27,13 @@
 
 // Завдання 4
 
-// let age=55;
-// if (age>60) {
+// let age= 55;
+// if (age>=60) {
 //     console.log("Максим пенсіонер");
-//     } else if  (age<60 && age > 19){
+//     } else if  (age<59 && age >= 19){
 //     console.log("Максим дорослий");
 // }
-//     else if  (age<18){
+//     else if  (age<=18){
 //         console.log("Максим дитина");
 //     }
 // else {
