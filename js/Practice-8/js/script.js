@@ -1,12 +1,12 @@
 // Завдання 1
 
 // const user = {
-//     userName: 'Ivan',
+//     userName: 'Andrii',
 //     age: 12,
 // };
 
 // user.showUserName = function () {
-//     console.log('Andrii');
+//     console.log(user.userName);
 // }
 
 
@@ -27,8 +27,15 @@
 //     Pete: 130
 // }
 
-// let sum = salaries.John + salaries.Ann + salaries.Pete;
-// console.log(sum)
+// const values = Object.values(salaries);
+
+// let sum = 0;
+
+// for (const value of values) {
+//     sum += value;
+// }
+
+// console.log(sum); 
 
 // Завдання 3
 
@@ -38,12 +45,16 @@
 //     calculator.b = b;
 // },
 // sum() {
-//     calculator.a + calculator.b;
+//     console.log(calculator.a + calculator.b);
 // },
 // mult() {
-//     calculator.a * calculator.b;
+//     console.log(calculator.a * calculator.b);
 // }
 // }
+
+// calculator.read(2, 2)
+// calculator.sum()
+// calculator.mult()
 
 // Завдання 4
 
