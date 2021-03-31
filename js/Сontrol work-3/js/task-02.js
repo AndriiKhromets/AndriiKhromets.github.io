@@ -1,5 +1,5 @@
 const countProps = function (obj) {
-    
+    return Object.entries(obj).length
 };
 
 console.log(countProps({})); // 0
