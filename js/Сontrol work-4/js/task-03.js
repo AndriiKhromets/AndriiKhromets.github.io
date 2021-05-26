@@ -18,10 +18,11 @@ const images = [
 
   const gallery = document.querySelector("#gallery");
   images.forEach(function(image){
-      let li = document.createElement('li');
-      let img = document.createElement('img');
-      img.setAttribute('src', image.url);
-      img.setAttribute('alt', image.alt);
-      li.append(img);
-      gallery.append(li);
+      let li = document.createElement("li");
+      let Img = document.createElement("img");
+  
+      Img.setAttribute("src", image.url);
+      Img.setAttribute("alt", image.alt);
+      li.appendChild(Img);
+      gallery.appendChild(li);
   });

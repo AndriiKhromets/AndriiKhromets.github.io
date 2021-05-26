@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background: #C8DCFF;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.column {
+    width: 45%;
+    margin-top: 50px;
+    background-color: #D4E4FF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 50px;
+    margin-right: 90px;
+    padding:0 25px;
+    border-radius: 25px;
+}
+
+.column .heading {
+    background: #D4E4FF;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.radio {
+    width: 48.76%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 294px;
+    height: 57px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ffffff;
+    background: #0038FFB2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.butt {
+    width: 140px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ffffff;
+    background: #ffe600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: none;
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+}
+
+.buttos {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.card {
+    min-height: 117px;
+    background: #FFFFFF;
+    position: relative;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 24px;
+}
+
+.to_do .card h5 {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+}
+
+.in_progress .card h5 {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+}
+
+.done .card h5 {
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+}
+
+.to_do .card p {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.in_progress .card p {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.done .card p {
+    margin-left: 160px;
+}
+
+.card .cross {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+
+.card .arrow_right {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+}
+
+.card .arrow_left {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
+}
+
+.card:hover .cross {
+    display: inline;
+}
+
+.arrow_right:hover {
+    display: inline;
+    color: blue;
+}
+
+.arrow_left:hover {
+    display: inline;
+    color: blue; 
+}
+
+.cross:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.card .heading {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.create_card form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.create_card form .radio {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio_item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.create_card form .desc {
+    width: 253px;
+    height: 38px;
+    margin-bottom: 15px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background: #D4E4FF;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.create_card form .descs {
+    width: 253px;
+    height: 52px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background: #D4E4FF;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background:#C8DCFF;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social_link img {
+    width: 58px;
+    height: 58px;
+}
