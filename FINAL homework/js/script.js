@@ -4,8 +4,6 @@ const todoEditor = document.querySelector(".js-todo-editor");
 const cardlistInTodo = document.querySelector(".card_list_todo");
 const cardlistInProgress = document.querySelector(".card_list_inprogress");
 const cardlistDone = document.querySelector(".card_list_done");
-console.log(cardlistInTodo);
-console.log(cardlistInProgress, cardlistDone)
 
 Sortable.create(cardlistInTodo, { group: "board" });
 Sortable.create(cardlistInProgress, { group: "board" });
@@ -53,4 +51,14 @@ function addCard(event) {
     createCard(title, description, priority);
     event.currentTarget.reset();
     hideTodoEditor();
+}
+
+const newForEach = function(){
+    let newbuttons = document.querySelectorAll('.cross');
+    newbuttons.forEach(function(button){
+        let block = button.parentElement
+        button.addEventListener("click", function(){
+            block.style.display = 'none';
+    });
+    });
 }
