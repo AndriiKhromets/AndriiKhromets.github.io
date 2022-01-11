@@ -1,13 +1,13 @@
-# from telegram.ext import Updater, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler, Filters
 
-# def echo(update, context):
-#     print(update.message.text)
-#     update.message.reply_text(update.message.text)
+def echo(update, context):
+    print(update.message.text)
+    update.message.reply_text(update.message.text)
 
-# updater = Updater("5075490510:AAHsP0b2sCoGRK4jYGX1WAtifVItIvPqMYI")
-# dispatcher = updater.dispatcher
+updater = Updater("")
+dispatcher = updater.dispatcher
 
-# dispatcher.add_handler(MessageHandler(Filters.all, echo))
+dispatcher.add_handler(MessageHandler(Filters.all, echo))
 
-# updater.start_polling()
-# updater.idle()
+updater.start_polling()
+updater.idle()
