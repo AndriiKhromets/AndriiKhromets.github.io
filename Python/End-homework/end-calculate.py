@@ -21,11 +21,12 @@ def divide(a, b):
         return a / b
 
 
-def check_operation(operation):
-    return operation in ['+', '*', '**', '-', '/']
+def operations(update, context):
+    chat = update.effective_chat
+    context.bot.send_message(chat_id=chat.id, text="| + | * | ** | - | / |")
 
 
-def suma(operand_a, operand_b, operation):
+def calculate(operand_a, operand_b, operation):
     result = None
     if operation == '+':
         result = sum(operand_a, operand_b)
@@ -37,31 +38,39 @@ def suma(operand_a, operand_b, operation):
         result = power(operand_a, operand_b)
     else:
         result = divide(operand_a, operand_b)
+    
+    return result   
 
-        print(operand_a, operation, operand_b, '=', result)
+def calc(update, context):
+    user_input = update.message.text
+    user_input = user_input.split()
 
-a, user_input_operation, b = input('Enter: ').split()
+    arg_1 = user_input[1]
+    arg_2 = user_input[2]
+    operation = user_input[3]
 
-if not check_operation(user_input_operation):
-    print(f'О \'{user_input_operation}\' not supported yet')
-else:
-    suma(int(a), int(b), user_input_operation)
+    result_message = arg_1 + operation + arg_2
 
+    arg_1 = int(arg_1)
+    arg_2 = int(arg_2)
+    result = calculate(arg_1, arg_2, operation)
+
+    result_message = result_message + ' = ' + str(result)  
+
+    chat = update.effective_chat
+    context.bot.send_message(chat_id=chat.id, text=result_message)
 
 def start(update, context):
     chat = update.effective_chat
     context.bot.send_message(chat_id=chat.id, text="Hello! This calculator.")
 
-def costs(update, context):
 
-    string = update.message.text
-    elements = string.split(' ')
-    
-    chat = update.effective_chat
-    context.bot.send_message(chat_id=chat.id, text="Your cost is "+elements[1])
-
-updater = Updater("")
+updater = Updater("5021938922:AAFdNN5Pe4Sq9JXzQ2Y3qJKDZkER1I2mnZk")
 dispatcher = updater.dispatcher
 
 dispatcher.add_handler(CommandHandler("start", start))
-dispatcher.add_handler(CommandHandler("eat", costs))
+dispatcher.add_handler(CommandHandler("help", operations))
+dispatcher.add_handler(CommandHandler("calc", calc))
+
+updater.start_polling()
+updater.idle()
