@@ -66,7 +66,7 @@ def start(update, context):
     context.bot.send_message(chat_id=chat.id, text="Hello! This calculator.")
 
 
-updater = Updater("")
+updater = Updater("5021938922:AAFdNN5Pe4Sq9JXzQ2Y3qJKDZkER1I2mnZk")
 dispatcher = updater.dispatcher
 
 dispatcher.add_handler(CommandHandler("start", start))
